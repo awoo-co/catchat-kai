@@ -30,7 +30,7 @@
     "version": "1.1.0",
     "subtitle": "Manage your daily tasks",
     "permissions": {},
-    "origin": "app://todoy.awooco.github.io",
+    "origin": "todoy-awooco",
     "developer": {
       "name": "awooco",
       "url": "https://awoo-co.github.io/awoo-co/"
@@ -39,5 +39,6 @@
       "statusbar": "overlap"
     },
     "focus_color": "#6054EF"
-  }
+  },
+  "default_locale": "en-US"
 }
