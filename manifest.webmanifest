@@ -1,8 +1,8 @@
 {
     "id": "KaiOS-Vanilla-Sample-App",
-    "name": "Vanilla App for KaiOS",
-    "short_name": "Vanilla Sample",
-    "description": "Simple example of a to-do list",
+    "name": "todoy",
+    "short_name": "todoy",
+    "description": "Simple to-do list app for kaios",
     "lang": "en-US",
     "theme_color": "#ffffff",
     "orientation": "natural",
