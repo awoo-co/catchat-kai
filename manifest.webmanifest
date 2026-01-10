@@ -1,10 +1,13 @@
 {
-  "lang": "en-US",
   "name": "todoy",
-  "id": "todoy",
   "short_name": "todoy",
-  "categories": ["productivity"],
   "description": "Simple to-do list app for kaios",
+  "categories": ["productivity"],
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/assets/icons/kaios_56.png",
@@ -15,16 +18,18 @@
       "src": "/assets/icons/kaios_112.png",
       "type": "image/png",
       "sizes": "112x112"
+    },
+    {
+      "src": "/assets/icons/kaios_128.png",
+      "type": "image/png",
+      "sizes": "128x128"
     }
   ],
-  "start_url": "/index.html",
-  "theme_color": "#ffffff",
-  "orientation": "natural",
   "b2g_features": {
     "version": "1.0.0",
     "subtitle": "Manage your daily tasks",
     "permissions": {},
-    "origin": "todoy",
+    "origin": "app://todoy.awooco.github.io",
     "developer": {
       "name": "awooco",
       "url": "https://awoo-co.github.io/awoo-co/"
