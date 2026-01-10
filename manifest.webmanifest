@@ -1,13 +1,13 @@
 {
-  "id": "todoy",
-  "name": "todoy",
-  "short_name": "todoy",
-  "description": "Simple to-do list app for kaios",
-  "categories": ["productivity"],
+  "id": "catchat",
+  "name": "CatChat",
+  "short_name": "CatChat",
+  "description": "Chat application for KaiOS",
+  "categories": ["social", "utilities"],
   "lang": "en-US",
   "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#ffffff",
+  "theme_color": "#9b27af",
   "orientation": "portrait-primary",
   "icons": [
     {
@@ -27,10 +27,13 @@
     }
   ],
   "b2g_features": {
-    "version": "1.2.0",
-    "subtitle": "Manage your daily tasks",
-    "permissions": {},
-    "origin": "todoy-awooco",
+    "version": "1.3.0",
+    "subtitle": "Stay connected with CatChat",
+    "permissions": {
+      "systemXHR": {},
+      "browser": {}
+    },
+    "origin": "catchat-awooco",
     "developer": {
       "name": "awooco",
       "url": "https://awoo-co.github.io/awoo-co/"
@@ -38,7 +41,7 @@
     "chrome": {
       "statusbar": "overlap"
     },
-    "focus_color": "#6054EF"
+    "focus_color": "#9b27af"
   },
   "default_locale": "en-US"
 }

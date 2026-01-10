@@ -42,6 +42,7 @@ const Up = event => {
 
 const setSoftkey = setIndex =>
     setLabels({
+        left: "Reload",
         center: setIndex === 0 ? "Insert" : "Toggle",
         right: setIndex === 0 ? "" : "Delete"
     });
@@ -64,8 +65,15 @@ const SoftRight = event => {
     const selectEle = allElementsSelectable[currentIndex - 1];
     selectElement(selectEle);
 
-    if (currentIndex - 1 === 0) setLabels({ center: "Insert" });
+    if (currentIndex - 1 === 0) setLabels({ left: "Reload", center: "Insert" });
     currentElement.remove();
+};
+
+const SoftLeft = event => {
+    const iframe = document.querySelector('iframe');
+    if (iframe) {
+        iframe.src = iframe.src;
+    }
 };
 
 const setLabels = ({ left, center, right }) => {
@@ -96,6 +104,8 @@ document.addEventListener("keydown", event => {
             return Down(event);
         case "ArrowUp":
             return Up(event);
+        case "SoftLeft":
+            return SoftLeft(event);
         case "SoftRight":
             return SoftRight(event);
         default:
