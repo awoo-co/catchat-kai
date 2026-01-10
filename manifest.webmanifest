@@ -3,9 +3,18 @@
     "name": "todoy",
     "short_name": "todoy",
     "description": "Simple to-do list app for kaios",
+    "author": "awooco <jameskuyt655@gmail.com>",
+    "developer": {
+        "name": "awooco",
+        "url": "https://awoo-co.github.io/awoo-co/"
+    },
+    "email": "jameskuyt655@gmail.com",
     "lang": "en-US",
     "theme_color": "#ffffff",
-    "orientation": "natural",
+    "background_color": "#ffffff",
+    "orientation": "portrait",
+    "display": "standalone",
+    "scope": "/",
     "start_url": "/index.html",
     "icons": [
         {
@@ -24,4 +33,5 @@
         "permissions": {},
         "version": "1.0.0"
     }
+    
 }
